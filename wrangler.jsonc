@@ -11,14 +11,5 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "routes": [
-    {
-      "pattern": "movetovamos.com",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.movetovamos.com",
-      "custom_domain": true
-    }
-  ]
+  "workers_dev": false
 }
