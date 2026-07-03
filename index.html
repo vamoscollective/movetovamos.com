@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vamos Collective — University Peer Tutoring in Singapore</title>
-<meta name="description" content="Singapore's university-focused peer tutoring and academic support platform. Getting you there.">
+<title>vamos collective — University Peer Tutoring in Singapore</title>
+<meta name="description" content="vamos collective — Singapore's university-focused peer tutoring and academic support platform. We get you there.">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <nav class="nav">
-    <a href="index.html" class="nav-logo">Vamos Collective</a>
+    <a href="index.html" class="nav-logo">vamos collective</a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
@@ -21,37 +21,54 @@
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a href="find-a-tutor.html" class="btn btn-gold btn-sm nav-cta">Find a Tutor</a>
+    <a href="find-a-tutor.html" class="btn btn-gold btn-sm nav-cta">Get Started</a>
   </nav>
 </header>
 
 <main>
 
-  <!-- HERO -->
-  <section class="hero">
-    <svg class="route-line" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M -50 420 C 200 380, 300 460, 550 400 S 900 320, 1250 360" fill="none" stroke="#F2C94C" stroke-width="2" stroke-dasharray="1 14" stroke-linecap="round"/>
-      <circle cx="-50" cy="420" r="5" fill="#F2C94C"/>
-      <circle cx="550" cy="400" r="5" fill="#F2C94C"/>
-      <circle cx="1250" cy="360" r="5" fill="#334E68"/>
-    </svg>
+  <!-- SPLIT HERO -->
+  <section class="hero-split">
     <div class="wrap">
-      <div class="hero-badge">🏫 Singapore's university-focused peer tutoring platform</div>
-      <h1>University is hard. You don't have to figure it out alone.</h1>
-      <p class="hero-sub">Connect with high-performing seniors and peer tutors who understand your curriculum, your modules, and the challenges you're facing.</p>
-      <div class="hero-actions">
-        <a href="find-a-tutor.html" class="btn btn-outline">Find a Tutor</a>
-        <a href="become-a-tutor.html" class="btn btn-primary">Become a Tutor</a>
-      </div>
+      <div class="grid-2">
+        <div>
+          <h1>Tutoring that moves<br>you forward.</h1>
+          <p class="lede">Founded by NUS students who've been in your shoes. We pair ambition with method — because results shouldn't be left to chance.</p>
+          <div class="hero-split-actions">
+            <a href="find-a-tutor.html" class="btn btn-primary">Work With Us</a>
+          </div>
+        </div>
 
-      <div class="uni-strip">
-        <span>NUS</span><span class="dot"></span>
-        <span>NTU</span><span class="dot"></span>
-        <span>SMU</span><span class="dot"></span>
-        <span>SUTD</span><span class="dot"></span>
-        <span>SIT</span><span class="dot"></span>
-        <span>SUSS</span><span class="dot"></span>
-        <span class="uni-note">Other recognised universities</span>
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Add a real photo of your tutors/students studying together here<br>(replace this box with an &lt;img&gt; tag — see comment in the code)</span>
+          </div>
+          <!-- Once you have a real photo, replace the div above with:
+          <img src="images/hero-photo.jpg" alt="Vamos Collective tutors and students studying together">
+          -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section>
+    <div class="wrap">
+      <div class="grid-2" style="align-items:center;">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Add a real photo of a tutoring session here</span>
+          </div>
+          <!-- <img src="images/who-we-are.jpg" alt="A Vamos Collective tutor helping a student"> -->
+        </div>
+
+        <div>
+          <span class="eyebrow">Who We Are</span>
+          <h2 style="font-size:clamp(1.9rem,3.8vw,2.7rem); margin-bottom:20px;">Student-founded. Results-driven.</h2>
+          <p class="lede">We're a collective of top-performing undergraduates who tutor because we genuinely enjoy it — not because we need a side hustle. Every session is intentional, structured, and built around you.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -218,19 +235,9 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="nav-logo">Vamos Collective</span>
-        <p>Singapore's university-focused peer tutoring and academic support platform. Getting you there.</p>
-      </div>
-      <div class="footer-contact">
-        <a href="mailto:hello@movetovamos.com">hello@movetovamos.com</a>
-        <p>University support, built around real people.</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      © 2026 Vamos Collective. Premium academic support for university students in Singapore.
-    </div>
+    <p class="tagline-italic" style="font-size:16px; margin-bottom:10px;">we get you there.</p>
+    <a href="mailto:vamoscollective.sg@gmail.com">vamoscollective.sg@gmail.com</a>
+    <p class="footer-copy">© 2026 Vamos Collective. Built by students, for students.</p>
   </div>
 </footer>
 
