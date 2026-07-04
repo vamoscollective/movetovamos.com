@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // 3. Paste that endpoint below, replacing YOUR_FORMSPREE_ENDPOINT.
   // Until you do this, the form will show a friendly message instead of
   // silently failing.
-  var FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT';
+  var FORMSPREE_ENDPOINT = 'https://formspree.io/f/xjgqjpgg';
 
   var contactForm = document.getElementById('contact-form');
   if (contactForm) {
